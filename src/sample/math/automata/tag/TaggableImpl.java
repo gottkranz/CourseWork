@@ -1,4 +1,4 @@
 package sample.math.automata.tag;
 
-public class TagImpl {
+public class TaggableImpl {
 }

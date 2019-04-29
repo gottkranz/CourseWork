@@ -1,4 +1,4 @@
-package main.parser;
+package sample.auxiliary.parser;
 
 public enum Token {
     NONE,

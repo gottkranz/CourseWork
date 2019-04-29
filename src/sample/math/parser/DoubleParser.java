@@ -1,15 +1,14 @@
-package main.parser;
+package sample.auxiliary.parser;
 
-import main.math.Factorial;
-
-import java.text.ParseException;
+import sample.math.calculations.Factorial;
 
 import static java.lang.Math.pow;
 
-public class Parser {
+public class DoubleParser {
     private static boolean test = false;
 
     public static final String EOF = "\0";
+
     private Delimiter delimiter = new Delimiter();
 
     private String expression;
@@ -17,7 +16,6 @@ public class Parser {
 
     private String tokenString;
     private Token tokenType;
-
 
     public double calculate(String expressionStr) throws ParserException {
         double result;

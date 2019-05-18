@@ -1,4 +1,4 @@
-package main.math;
+package sample.math.calculations;
 
 import static java.lang.Math.*;
 

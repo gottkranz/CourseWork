@@ -3,10 +3,10 @@ package sample.math.automata.automaton;
 import javafx.beans.property.IntegerProperty;
 import javafx.beans.property.StringProperty;
 
-public interface Automata {
+public interface Automaton {
     String getName();
     StringProperty getNameProperty();
-    void setName(String name);
+    boolean setName(String name);
 
     String getBetaString();
     double getBetaDouble();
@@ -17,8 +17,8 @@ public interface Automata {
     int getCardinality();
     IntegerProperty getCardinalityProperty();
 
-    String getTagString();
-    StringProperty getTagProperty();
-    void addTag(String tag);
-    void clearTags();
+    //String getTagString();
+    //StringProperty getTagProperty();
+    //void addTag(String tag);
+    //void clearTags();
 }

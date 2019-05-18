@@ -6,13 +6,13 @@ import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 import sample.auxiliary.Messager;
 import sample.math.automata.calculations.calculator.BetaCalculator;
-import sample.math.automata.tag.Tag;
-import sample.math.automata.tag.TagFactory;
+import sample.math.automata.tag.TaggableImpl;
+import sample.math.automata.tag.factory.TagFactory;
 
 import java.util.LinkedList;
 import java.util.List;
 
-public abstract class AutomataImpl implements Automata{
+public abstract class AutomatonImpl extends TaggableImpl implements Automaton {
 //VARIABLES
 //CHARACTERISTICS
     private StringProperty name, beta;
@@ -22,7 +22,7 @@ public abstract class AutomataImpl implements Automata{
     private String previousBeta;
 
 //LISTS
-    private List<Tag> tagList;
+
 
 //AUXILIARY
     protected BetaCalculator betaCalculator;
@@ -31,9 +31,10 @@ public abstract class AutomataImpl implements Automata{
 
 //CONSTRUCTOR
 //
-    protected AutomataImpl(String name, String beta){
+    protected AutomatonImpl(String name, String beta, String type){
+        super(type);
         //INIT CHARACTERISTICS
-        this.name = new SimpleStringProperty(name);
+        this.name = new SimpleStringProperty("Default Name");
         this.beta = new SimpleStringProperty("2");
         previousBeta = "2";
 
@@ -42,12 +43,14 @@ public abstract class AutomataImpl implements Automata{
 
         //INIT OTHER
         betaCalculator = new BetaCalculator();
-        tagList = new LinkedList<>();
         messager = new Messager();
         //
 
         if(!setBeta(beta)){
             addTag("BIB");
+        }
+        if(!setName(name)){
+            addTag("BN");
         }
     }
 
@@ -63,11 +66,17 @@ public abstract class AutomataImpl implements Automata{
         return name;
     }
     @Override
-    public void setName(String name) {
-        this.name.setValue(name);
+    public boolean setName(String name) {
+        String replace = name.replace(" ", "");
+        if(replace.equals("")){
+            return false;
+        }else{
+            this.name.setValue(name);
+            return true;
+        }
     }
 
-//BETA
+    //BETA
     @Override
     public String getBetaString() {
         return beta.getValue();
@@ -76,6 +85,7 @@ public abstract class AutomataImpl implements Automata{
     public double getBetaDouble() {
         return betaCalculator.calculate(beta.getValue());
     }
+
     @Override
     public StringProperty getBetaProperty() {
         return beta;
@@ -97,7 +107,7 @@ public abstract class AutomataImpl implements Automata{
         return previousBeta;
     }
 
-    //CARDINALITY
+//CARDINALITY
     @Override
     public int getCardinality() {
         return cardinality.getValue();
@@ -109,31 +119,6 @@ public abstract class AutomataImpl implements Automata{
     private void setCardinality(){
         int newCardinality = (int)Math.ceil(getBetaDouble());
         cardinality.setValue(newCardinality);
-    }
-
-//TAG
-    @Override
-    public String getTagString() {
-        return tags.getValue();
-    }
-    @Override
-    public StringProperty getTagProperty() {
-        return tags;
-    }
-    @Override
-    public void addTag(String acronym) {
-        TagFactory tagFactory = new TagFactory();
-        Tag tag = tagFactory.getTag(acronym);
-        if(tag != null){
-            tagList.add(tag);
-        }else{
-            System.err.println("Bad tag acronym!");
-        }
-    }
-
-    @Override
-    public void clearTags() {
-        tagList.clear();
     }
 
     @Override

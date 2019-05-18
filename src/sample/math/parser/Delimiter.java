@@ -1,4 +1,4 @@
-package sample.auxiliary.parser;
+package sample.math.parser;
 
 import java.util.ArrayList;
 import java.util.List;

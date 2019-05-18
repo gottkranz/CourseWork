@@ -1,9 +1,10 @@
-package sample.math.automata.automaton.filer;
+package sample.math.automata.automaton.filer.reader;
 
 import sample.math.automata.automaton.Automaton;
 
+import java.util.List;
+
 public interface Reader {
-    String readData(String fileName);
-    String[] formData(String fileString);
-    Automaton readDataBlock(String[] dataBlock);
+    List<Automaton> readAutomatonList(String fileName) throws Exception;
+    Automaton readAutomaton(String fileName) throws Exception;
 }

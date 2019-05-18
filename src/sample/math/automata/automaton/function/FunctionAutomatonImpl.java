@@ -1,10 +1,6 @@
 package sample.math.automata.automaton.function;
 
-import javafx.beans.property.SimpleStringProperty;
-import javafx.beans.property.StringProperty;
-import sample.math.automata.automaton.AutomataImpl;
-
-public class FunctionAutomataImpl /*extends AutomataImpl implements FunctionAutomata*/ {
+public class FunctionAutomatonImpl /*extends AutomataImpl implements FunctionAutomata*/ {
     /*private StringProperty function;
 
     public FunctionAutomataImpl(String name, String beta, String function){

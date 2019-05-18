@@ -1,7 +1,7 @@
-package sample.math.automata.calculations;
+package sample.math.automata.calculations.calculator;
 
 import sample.auxiliary.Messager;
-import sample.auxiliary.parser.DoubleParser;
+import sample.math.parser.DoubleParser;
 
 public class BetaCalculator implements Calculator {
     private static DoubleParser doubleParser;
@@ -24,7 +24,7 @@ public class BetaCalculator implements Calculator {
                 return d;
             }
         }catch (Exception e){
-            messager.showMessageError("BETA", "Bad beta formula!" +
+            messager.showMessageError("BETA", "Bad beta formula!\n" +
                     e.toString());
             messager.printErrorAtMethod(e);
             return -1;

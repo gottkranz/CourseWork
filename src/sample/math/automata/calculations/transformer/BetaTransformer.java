@@ -1,4 +1,4 @@
-package sample.math.automata.calculations;
+package sample.math.automata.calculations.transformer;
 
 import sample.math.calculations.Precision;
 
@@ -61,25 +61,5 @@ public class BetaTransformer implements Transformer {
             ret[i] = integer;
         }
         return ret;
-    }
-
-    @Override
-    public String getPrintablePadicString(Integer[] padicNumber) {
-        return null;
-    }
-
-    @Override
-    public String getPrintablePadicString(List<Integer> padicNumber) {
-        return null;
-    }
-
-    @Override
-    public String getPadicString(Integer[] padicNumber) {
-        return null;
-    }
-
-    @Override
-    public String getPadicString(List<Integer> padicNumber) {
-        return null;
     }
 }

@@ -1,4 +1,4 @@
-package sample.auxiliary.parser;
+package sample.math.parser;
 
 public class ParserException extends Exception {
     private String errorString;

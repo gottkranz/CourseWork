@@ -1,4 +1,4 @@
-package sample.math.automata.calculations;
+package sample.math.automata.calculations.transformer;
 
 import sample.math.calculations.Precision;
 
@@ -12,7 +12,6 @@ public class PadicTransformer implements Transformer {
     public PadicTransformer(double beta){
         this.beta = beta;
         MAX_PADIC_DIGIT = (int) Math.ceil(beta) - 1;
-        //System.err.println(MAX_PADIC_DIGIT);
     }
 
     @Override
@@ -59,30 +58,5 @@ public class PadicTransformer implements Transformer {
             ret[i] = integer;
         }
         return ret;
-    }
-
-    @Override
-    public String getPrintablePadicString(Integer[] padicNumber) {
-        return null;
-    }
-
-    @Override
-    public String getPrintablePadicString(List<Integer> padicNumber) {
-        return null;
-    }
-
-    @Override
-    public String getPadicString(Integer[] padicNumber) {
-        StringBuffer stringBuffer = new StringBuffer();
-        for (int i = 0; i < padicNumber.length ; i++) {
-            Integer integer = padicNumber[i];
-            stringBuffer.append(integer);
-        }
-        return stringBuffer.toString();
-    }
-
-    @Override
-    public String getPadicString(List<Integer> padicNumber) {
-        return null;
     }
 }

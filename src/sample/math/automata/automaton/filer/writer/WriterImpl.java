@@ -1,4 +1,4 @@
-package sample.math.automata.automaton.filer;
+package sample.math.automata.automaton.filer.writer;
 
 import sample.math.automata.automaton.Automaton;
 
@@ -8,23 +8,23 @@ import java.util.List;
 
 public abstract class WriterImpl implements Writer{
     protected StringBuffer writeString;
-    protected final String BLOCKS_DELIMITER = "###";
-    protected final String IN_BLOCK_DELIMITER = "##";
-    protected final String DATA_DELIMITER = "#";
-
+    public static final String BLOCKS_DELIMITER = "###";
+    public static final String IN_BLOCK_DELIMITER = "##";
 
 //METHODS
     @Override
-    public boolean write(List<Automaton> automatonList, String fileName){
+    public boolean write(List<Automaton> automatonList, String fileName, boolean append){
         writeString = new StringBuffer();
         for (int i = 0; i < automatonList.size(); i++) {
             Automaton automaton =  automatonList.get(i);
 
-            addDataBlock(automaton);
+            if(automaton != null){
+                addDataBlock(automaton);
+            }
         }
 
         try{
-            write(fileName);
+            write(fileName, append);
         }catch (Exception e){
             System.err.println("ERROR AT: writing Automaton:\t" + e);
             return false;
@@ -33,15 +33,16 @@ public abstract class WriterImpl implements Writer{
     }
 
     @Override
-    public boolean write(Automaton automaton, String fileName) {
+    public boolean write(Automaton automaton, String fileName, boolean append) {
         List<Automaton> list = new LinkedList<>();
         list.add(automaton);
-        return write(list, fileName);
+        return write(list, fileName, append);
     }
 
-//WRITING
-    private void write(String fileName)throws Exception{
-        FileWriter fileWriter = new FileWriter(fileName + ".txt");
+
+    //WRITING
+    private void write(String fileName, boolean append)throws Exception{
+        FileWriter fileWriter = new FileWriter(fileName + ".txt", append);
         fileWriter.write(writeString.toString());
         fileWriter.close();
     }
@@ -50,18 +51,18 @@ public abstract class WriterImpl implements Writer{
     private void addDataBlock(Automaton automaton){
         addCommon(automaton);
 
-        addSpecial();
+        addSpecial(automaton);
 
-        writeString.append(BLOCKS_DELIMITER);
+        writeString.append(BLOCKS_DELIMITER + "\r\n");
     }
 
     private void addCommon(Automaton automaton){
         writeString.append(automaton.getName());
 
-        writeString.append(IN_BLOCK_DELIMITER);
+        writeString.append("\r\n" + IN_BLOCK_DELIMITER + "\r\n");
         writeString.append(automaton.getBetaString());
-        writeString.append(IN_BLOCK_DELIMITER);
+        writeString.append("\r\n" + IN_BLOCK_DELIMITER + "\r\n");
     }
 
-    protected abstract void addSpecial();
+    protected abstract void addSpecial(Automaton automaton);
 }

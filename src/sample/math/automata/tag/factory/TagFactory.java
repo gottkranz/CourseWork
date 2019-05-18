@@ -1,44 +1,21 @@
-package sample.math.automata.tag;
+package sample.math.automata.tag.factory;
 
-import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 public class TagFactory {
-    private final List<Tag> possibleTags;
+    private final Map<String, String> possibleTags;
 
-    public TagFactory(String factoryType){
-        possibleTags = new ArrayList<>();
-
-        switch (factoryType){
-            case "state":
-                //possibleTags.add(new TagImpl())
-                break;
-            case "states automaton":
-                possibleTags.add(new TagImpl("BIB", "Bad Initial Beta"));
-                break;
-            case "function automaton":
-                possibleTags.add(new TagImpl("BIB", "Bad Initial Beta"));
-                break;
-        }
+    public TagFactory(Map<String, String> possibleTags){
+        this.possibleTags = possibleTags;
     }
 
-    public Tag getTag(String acronym){
-        Tag ret = null;
-        switch (acronym){
-            case "BIB":
-                ret = new TagImpl("BIB", "Bad Initial Beta");
-                return ret;
+    public String[] getTag(String acronym){
+        if(possibleTags.get(acronym) != null){
+            String[] ret = {acronym, possibleTags.get(acronym)};
+            return ret;
+        }else{
+            return null;
         }
-        return ret;
-    }
-
-    public Tag getTagByAcronym(String tagAcronym){
-        for (int i = 0; i < possibleTags.size(); i++) {
-            Tag tag =  possibleTags.get(i);
-            if(tag.getTag()[0].equals(tagAcronym)){
-                return tag;
-            }
-        }
-        return null;
     }
 }

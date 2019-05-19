@@ -17,4 +17,6 @@ public interface State {
     boolean setArc(int input, String output, int outstate);
     boolean setArc(StateOutputArc arc);
     boolean setArcMap(Map<Integer, StateOutputArcImpl> arcsMap);
+
+    boolean setStatesAmount(int statesAmount);
 }

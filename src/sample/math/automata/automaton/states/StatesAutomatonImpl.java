@@ -42,6 +42,7 @@ public class StatesAutomatonImpl extends AutomatonImpl implements StatesAutomato
             return false;
         }else{
             stateMap.remove(lastIndex);
+            onStatesAmountChange();
             return true;
         }
     }
@@ -58,6 +59,53 @@ public class StatesAutomatonImpl extends AutomatonImpl implements StatesAutomato
 
     }
 
+    private void onStatesAmountChange(){
+        for(Map.Entry<Integer, State> stateEntry : stateMap.entrySet()){
+            Map<Integer, StateOutputArcImpl> state = stateEntry.getValue().getCopyArcMap();
+
+            //REWRITE EVERY STATE:
+            //STATES AMOUNT
+            stateEntry.getValue().setStatesAmount(stateMap.size());
+
+            //CHECK CORRECTION
+            for(Map.Entry<Integer, StateOutputArcImpl> arc : state.entrySet()){
+                StateOutputArcImpl arcImpl = arc.getValue();
+
+                //REWRITE IF BAD
+                if(!stateEntry.getValue().isFineOutstate(arcImpl.getOutstateIndex())){
+                    arcImpl.setOutstateIndex(arcImpl.getIndex());
+                    arcImpl.addTag("ROS");
+                }
+            }
+        }
+
+
+    }
+
+    protected void onBetaChange(){
+        try{
+            for(Map.Entry<Integer, State> stateEntry : stateMap.entrySet()){
+                Map<Integer, StateOutputArcImpl> state = stateEntry.getValue().getCopyArcMap();
+
+                //REWRITE EVERY STATE:
+                //STATES AMOUNT
+                stateEntry.getValue().setCardinality(getCardinality());
+
+                //CHECK CORRECTION
+                for(Map.Entry<Integer, StateOutputArcImpl> arc : state.entrySet()){
+                    StateOutputArcImpl arcImpl = arc.getValue();
+
+                    //REWRITE IF BAD
+                    if(!stateEntry.getValue().isFineOutput(arcImpl.getOutput())){
+                        arcImpl.setOutput("");
+                        arcImpl.addTag("RO");
+                    }
+                }
+            }
+        }catch (Exception e){
+            System.err.println("ERROR AT: onBetaChange: " + e);
+        }
+    }
 
 //ARC
     @Override

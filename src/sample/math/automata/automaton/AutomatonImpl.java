@@ -61,10 +61,12 @@ public abstract class AutomatonImpl extends TaggableImpl implements Automaton {
     public String getName() {
         return name.getValue();
     }
+
     @Override
     public StringProperty getNameProperty() {
         return name;
     }
+
     @Override
     public boolean setName(String name) {
         String replace = name.replace(" ", "");
@@ -76,11 +78,13 @@ public abstract class AutomatonImpl extends TaggableImpl implements Automaton {
         }
     }
 
-    //BETA
+
+//BETA
     @Override
     public String getBetaString() {
         return beta.getValue();
     }
+
     @Override
     public double getBetaDouble() {
         return betaCalculator.calculate(beta.getValue());
@@ -90,12 +94,14 @@ public abstract class AutomatonImpl extends TaggableImpl implements Automaton {
     public StringProperty getBetaProperty() {
         return beta;
     }
+
     @Override
     public boolean setBeta(String beta) {
         if(betaCalculator.calculate(beta) != -1){
             this.beta.setValue(beta);
             setCardinality();
             previousBeta = beta;
+            onBetaChange();
             return true;
         }else{
             return false;
@@ -107,15 +113,20 @@ public abstract class AutomatonImpl extends TaggableImpl implements Automaton {
         return previousBeta;
     }
 
+    protected abstract void onBetaChange();
+
+
 //CARDINALITY
     @Override
     public int getCardinality() {
         return cardinality.getValue();
     }
+
     @Override
     public IntegerProperty getCardinalityProperty() {
         return cardinality;
     }
+
     private void setCardinality(){
         int newCardinality = (int)Math.ceil(getBetaDouble());
         cardinality.setValue(newCardinality);

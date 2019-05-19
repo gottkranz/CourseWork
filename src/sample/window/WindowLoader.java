@@ -14,10 +14,10 @@ public class WindowLoader {
 
         switch (windowType) {
             case STATES_WORK:
-                path = "/sample/window/states/FXML_States_Automaton.fxml";
+                path = "/sample/window/states/FXMLStatesAutomaton.fxml";
                 title = "States Automaton Settings";
                 width = 490;
-                height = 650;
+                height = 560;
                 break;
         }
         try {

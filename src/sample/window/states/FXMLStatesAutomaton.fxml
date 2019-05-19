@@ -7,7 +7,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="567.0" prefWidth="502.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.window.states.FXMLStatesAutomaton_Controller">
+<AnchorPane prefHeight="567.0" prefWidth="502.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.window.states.FXMLStatesAutomatonController">
    <children>
       <Label layoutX="27.0" layoutY="14.0" text="Automaton states:">
          <font>

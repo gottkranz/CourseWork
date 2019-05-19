@@ -28,7 +28,7 @@ public class StateImpl implements State {
         return index;
     }
 
-    //ARCS
+//ARCS
     @Override
     public boolean setArc(int input, String output, int outstate){
         StateOutputArc arc = arcMap.get(input);
@@ -72,6 +72,7 @@ public class StateImpl implements State {
                         arcMap.remove(i);
                     }
                 }
+                cardinality = newCardinality;
                 return true;
             }catch (Exception e){
                 System.err.println("ERROR AT changing state cardinality");
@@ -90,7 +91,17 @@ public class StateImpl implements State {
         }
     }
 
-//OUTPUT
+    @Override
+    public boolean setStatesAmount(int statesAmount) {
+        if(statesAmount < 1 || statesAmount < index) {
+            return false;
+        }else{
+            this.statesAmount = statesAmount;
+            return true;
+        }
+    }
+
+    //OUTPUT
     @Override
     public boolean isFineOutput(String output) {
         if(isEmptyOutput(output)){

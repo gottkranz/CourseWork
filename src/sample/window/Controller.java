@@ -29,6 +29,7 @@ public abstract class Controller {
 //FXML
     @FXML
     protected TextField betaField;
+
     @FXML
     protected Button betaApplyButton;
 
@@ -61,6 +62,8 @@ public abstract class Controller {
             if(currentAutomaton.setBeta(betaField.getText())){
                 betaApplyButton.setText("Change");
                 betaField.setDisable(true);
+                System.err.println(currentAutomaton.getBetaString());
+                bindSpecial();
             }
         }
     }
@@ -84,12 +87,36 @@ public abstract class Controller {
 
     @FXML
     protected void onOkButton(){
-        onApplyWindowButton();
+        try {
+            onApplyWindowButton();
+        }catch (Exception e){
+            Messager.showMessageError("Bad automaton!", e +
+                    "\ntry to restart the application!");
+        }
         onCancelWindowButton();
     }
 
     @FXML
-    protected void onApplyWindowButton(){
+    protected void onApplyWindowButton() throws Exception{
+        String path;
+        switch (automatonType){
+            case STATES:
+                path = RecentAutomatonInitializerImpl.CURRENT_STATES_FILE_NAME;
+                //System.err.println(path);
+                break;
+            case FUNCTION:
+                path = RecentAutomatonInitializerImpl.CURRENT_FUNCTION_FILE_NAME;
+                //System.err.println(path);
+                break;
+                default:
+                    System.err.println("Bad automatonType");
+                    throw new Exception("Bad automatonType");
+        }
+        writer.write(currentAutomaton, path, false);
+    }
+
+    @FXML
+    protected void onOpenButton(){
 
     }
 
@@ -122,7 +149,7 @@ public abstract class Controller {
         initSpecial();
     }
 
-    protected void initCommon(){
+    private void initCommon(){
         //LISTENERS
         String regex = "\\d*[\\.\\/]?\\d*\\^?\\(?\\d*[\\.\\/]?\\d*\\)?";
         int limit = 27;

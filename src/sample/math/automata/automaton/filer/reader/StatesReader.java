@@ -13,6 +13,7 @@ import java.util.Map;
 
 public class StatesReader extends ReaderImpl {
     private int currentCardinality;
+    private int currentStatesAmount;
 
     @Override
     protected Automaton readDataBlock(String[] dataBlock) throws DamagedDataException{
@@ -24,8 +25,6 @@ public class StatesReader extends ReaderImpl {
 
         ((StatesAutomatonImpl) automaton).setStateMap(readStatesMap(dataBlock[2]));
 
-
-
         return automaton;
     }
 
@@ -36,7 +35,8 @@ public class StatesReader extends ReaderImpl {
         String[] stringStateArray = data.split(StatesWriter.DATA_DELIMITER);
 
         //SENDS THE PARTS OF SPLIT DATA
-        for (int i = 0; i < stringStateArray.length; i++) {
+        currentStatesAmount = stringStateArray.length;
+        for (int i = 0; i < currentStatesAmount; i++) {
             String s = stringStateArray[i];
 
             State state = readState(s, i);
@@ -54,7 +54,6 @@ public class StatesReader extends ReaderImpl {
         String[] stateElements = stateStr.split(StatesWriter.IN_DATA_DELIMITER_1);
 
         State ret;
-        int statesAmount = stateElements.length;
 
         Map<Integer, StateOutputArcImpl> arcMap = new HashMap<>();
 
@@ -74,7 +73,7 @@ public class StatesReader extends ReaderImpl {
         }
 
         //
-        ret = new StateImpl(index, currentCardinality, statesAmount);
+        ret = new StateImpl(index, currentCardinality, currentStatesAmount);
 
         if(!ret.setArcMap(arcMap)){
             throw new DamagedDataException();

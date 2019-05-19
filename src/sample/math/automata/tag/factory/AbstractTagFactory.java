@@ -34,8 +34,8 @@ public class AbstractTagFactory {
 
     private Map<String, String> getArcPossibleTags(){
         Map<String, String> possibleTags = new HashMap<>();
-        possibleTags.put("BO", "Bad Output: Value");
-        possibleTags.put("BOS", "Bad Output: State");
+        possibleTags.put("RO", "Rewritten Output");
+        possibleTags.put("ROS", "Rewritten Output State");
         possibleTags.put("NI", "Not initialized");
         return possibleTags;
     }

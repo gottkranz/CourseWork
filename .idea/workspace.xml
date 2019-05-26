@@ -1,36 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/sample/window/states/FXMLStatesAutomatonController.java" line="122" />
+    <bookmark url="file://$PROJECT_DIR$/src/sample/window/states/FXMLStatesAutomatonController.java" line="124" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sample/math/automata/automaton/save/FXMLSaveDialog.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/math/automata/automaton/save/FXMLSaveDialogContoller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/window/main/FXMLMain.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/window/main/FXMLMainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/window/play/FXMLPlay.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/window/play/FXMLPlayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/window/play/graphic/AutomatonGraphicBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/window/save/FXMLSaveDialogContoller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automaton_states.txt" beforeDir="false" afterPath="$PROJECT_DIR$/automaton_states.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/current_states_automaton.txt" beforeDir="false" afterPath="$PROJECT_DIR$/current_states_automaton.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CourseWork/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CourseWork/sample/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CourseWork/sample/math/automata/automaton/Automaton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CourseWork/sample/math/automata/automaton/Automaton.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CourseWork/sample/math/automata/automaton/AutomatonImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CourseWork/sample/math/automata/automaton/AutomatonImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CourseWork/sample/math/automata/automaton/filer/RecentAutomatonInitializerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CourseWork/sample/math/automata/automaton/filer/RecentAutomatonInitializerImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CourseWork/sample/math/automata/automaton/filer/reader/StatesReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CourseWork/sample/math/automata/automaton/filer/reader/StatesReader.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CourseWork/sample/math/automata/automaton/filer/writer/WriterImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CourseWork/sample/math/automata/automaton/filer/writer/WriterImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CourseWork/sample/math/automata/automaton/states/StatesAutomatonImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CourseWork/sample/math/automata/automaton/states/StatesAutomatonImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CourseWork/sample/math/automata/automaton/states/state/State.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CourseWork/sample/math/automata/automaton/states/state/State.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CourseWork/sample/math/automata/automaton/states/state/StateImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CourseWork/sample/math/automata/automaton/states/state/StateImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CourseWork/sample/math/automata/tag/factory/AbstractTagFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CourseWork/sample/math/automata/tag/factory/AbstractTagFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CourseWork/sample/window/Controller$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CourseWork/sample/window/Controller$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CourseWork/sample/window/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CourseWork/sample/window/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CourseWork/sample/window/WindowLoader$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CourseWork/sample/window/WindowLoader$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CourseWork/sample/window/WindowLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CourseWork/sample/window/WindowLoader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CourseWork/sample/window/states/FXMLStatesAutomaton_Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CourseWork/sample/window/states/FXMLStatesAutomaton_Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CourseWork/sample/window/states/FXML_States_Automaton.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CourseWork/sample/window/states/FXML_States_Automaton.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CourseWork/sample/window/states/FXMLStatesAutomaton_Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CourseWork/sample/window/states/FXML_States_Automaton.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/math/automata/automaton/Automaton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/math/automata/automaton/Automaton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/math/automata/automaton/AutomatonImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/math/automata/automaton/AutomatonImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/math/automata/automaton/filer/reader/StatesReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/math/automata/automaton/filer/reader/StatesReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/math/automata/automaton/filer/writer/WriterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/math/automata/automaton/filer/writer/WriterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/math/automata/automaton/save/FXMLSaveDialog.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/window/save/FXMLSaveDialog.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/math/automata/automaton/save/FXMLSaveDialogContoller.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/math/automata/automaton/states/StatesAutomatonImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/math/automata/automaton/states/StatesAutomatonImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/math/automata/automaton/states/state/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/math/automata/automaton/states/state/State.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/math/automata/automaton/states/state/StateImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/math/automata/automaton/states/state/StateImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/math/automata/tag/factory/AbstractTagFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/math/automata/tag/factory/AbstractTagFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/window/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/window/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/window/WindowLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/window/WindowLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/window/states/FXMLStatesAutomaton_Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/window/states/FXMLStatesAutomatonController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/window/states/FXML_States_Automaton.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/window/states/FXMLStatesAutomaton.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/window/states/FXMLStatesAutomaton.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/window/states/FXMLStatesAutomaton.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/window/states/FXMLStatesAutomatonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/window/states/FXMLStatesAutomatonController.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -88,31 +93,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/window/Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="119" selection-start-line="119" selection-end-line="119" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#onCancelBetaButton#0;class#Controller#0" />
-                <element signature="method#onOkButton#0;class#Controller#0" />
-                <element signature="method#onApplyWindowButton#0;class#Controller#0" />
-                <element signature="method#bindAutomaton#0;class#Controller#0" />
-                <element signature="method#bindCommon#0;class#Controller#0" />
-                <element signature="method#init#0;class#Controller#0" />
-                <element signature="method#initCommon#0;class#Controller#0" />
-                <element signature="method#addListener#0;class#Controller#0" />
-                <element signature="method#addListener#1;class#Controller#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/math/automata/automaton/AutomatonImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="103" column="12" selection-start-line="103" selection-start-column="12" selection-end-line="103" selection-end-column="12" />
+            <state relative-caret-position="137">
+              <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#setName#0;class#AutomatonImpl#0" />
@@ -124,82 +108,48 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/window/states/FXMLStatesAutomatonController.java">
+        <entry file="file://$PROJECT_DIR$/current_states_automaton.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="79" selection-start-line="79" selection-end-line="79" />
+            <state relative-caret-position="85">
+              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/window/main/FXMLMainController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="44" column="86" selection-start-line="44" selection-start-column="86" selection-end-line="44" selection-end-column="86" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#onAddState#0;class#FXMLStatesAutomaton_Controller#0" />
-                <element signature="method#onDeleteLastState#0;class#FXMLStatesAutomaton_Controller#0" />
-                <element signature="method#onApplyArcButton#0;class#FXMLStatesAutomaton_Controller#0" />
-                <element signature="method#initialize#0;class#FXMLStatesAutomaton_Controller#0" />
-                <element signature="method#bindSpecial#0;class#FXMLStatesAutomaton_Controller#0" />
-                <element signature="method#initSpecial#0;class#FXMLStatesAutomaton_Controller#0" />
-                <element signature="method#onSelectedArcPrint#0;class#FXMLStatesAutomaton_Controller#0" />
+                <element signature="method#initCurrent#0;class#FXMLMainController#0" />
+                <element signature="method#initialize#0;class#FXMLMainController#0" />
+                <element signature="method#initRadioButtons#0;class#FXMLMainController#0" />
+                <element signature="method#initFieldListeners#0;class#FXMLMainController#0" />
+                <element signature="method#gerRecentAutomaton#0;class#FXMLMainController#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/math/automata/automaton/save/FXMLSaveDialog.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
+        <entry file="file://$PROJECT_DIR$/src/sample/window/play/FXMLPlayController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="357">
+              <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sample/math/automata/automaton/save/FXMLSaveDialogContoller.java">
+        <entry file="file://$PROJECT_DIR$/src/sample/window/play/graphic/AutomatonGraphicBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/math/automata/automaton/states/state/StateImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="58" column="54" selection-start-line="58" selection-start-column="54" selection-end-line="58" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#setCardinality#0;class#StateImpl#0" />
-                <element signature="method#initArcs#0;class#StateImpl#0" />
-                <element signature="method#isEmptyOutput#0;class#StateImpl#0" />
-                <element signature="method#updateStatesAmount#0;class#StateImpl#0" />
-                <element signature="method#toString#0;class#StateImpl#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/math/automata/automaton/states/StatesAutomatonImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="82" column="5" lean-forward="true" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#StatesAutomatonImpl#1;class#StatesAutomatonImpl#0" />
-                <element signature="method#deleteLastState#0;class#StatesAutomatonImpl#0" />
-                <element signature="method#addNewState#0;class#StatesAutomatonImpl#0" />
-                <element signature="method#onStatesAmountChange#0;class#StatesAutomatonImpl#0" />
-                <element signature="method#getAllArcs#0;class#StatesAutomatonImpl#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/current_states_automaton.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -218,8 +168,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>scanner</find>
-      <find>initTables</find>
       <find>nameF</find>
       <find>&quot;currentAutomata&quot;</find>
       <find>automataFunctionList</find>
@@ -239,7 +187,6 @@
       <find>parser</find>
       <find>isDelim</find>
       <find>err</find>
-      <find>err.</find>
       <find>previousBeta</find>
       <find>mess</find>
       <find>show</find>
@@ -248,6 +195,9 @@
       <find>!=</find>
       <find>the data</find>
       <find>ERROR AT</find>
+      <find>onBeta</find>
+      <find>err.</find>
+      <find>fatal</find>
     </findStrings>
     <replaceStrings>
       <replace>int</replace>
@@ -267,17 +217,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/sample/math/automata/function/FunctionAutomataImpl.java" />
-        <option value="$PROJECT_DIR$/src/sample/math/automata/automaton/function/FunctionAutomataImpl.java" />
-        <option value="$PROJECT_DIR$/src/sample/math/automata/automaton/function/FunctionAutomata.java" />
-        <option value="$PROJECT_DIR$/src/sample/math/automata/automaton/function/FunctionAutomaton.java" />
-        <option value="$PROJECT_DIR$/src/sample/math/automata/tag/TagImpl.java" />
-        <option value="$PROJECT_DIR$/src/sample/math/automata/tag/TagFactory.java" />
-        <option value="$PROJECT_DIR$/src/sample/math/automata/tag/factory/AbstractFactory.java" />
-        <option value="$PROJECT_DIR$/src/sample/math/automata/tag/factory/TagFactory.java" />
-        <option value="$PROJECT_DIR$/src/sample/math/automata/tag/Taggable.java" />
-        <option value="$PROJECT_DIR$/src/sample/math/automata/automaton/Automaton.java" />
-        <option value="$PROJECT_DIR$/src/sample/math/automata/automaton/filer.java" />
         <option value="$PROJECT_DIR$/src/sample/math/automata/automaton/filer/Reader.java" />
         <option value="$PROJECT_DIR$/src/sample/math/automata/automaton/filer/Writer.java" />
         <option value="$PROJECT_DIR$/src/sample/math/automata/automaton/filer/WriterImpl.java" />
@@ -290,7 +229,6 @@
         <option value="$PROJECT_DIR$/src/sample/window/Window.java" />
         <option value="$PROJECT_DIR$/src/sample/math/automata/calculations/calculator/BetaCalculator.java" />
         <option value="$PROJECT_DIR$/src/sample/math/automata/automaton/filer/writer/Writer.java" />
-        <option value="$PROJECT_DIR$/src/sample/Main.java" />
         <option value="$PROJECT_DIR$/src/sample/math/automata/automaton/AutomatonType.java" />
         <option value="$PROJECT_DIR$/src/sample/math/automata/automaton/filer/AutomatonInitializer.java" />
         <option value="$PROJECT_DIR$/src/sample/math/automata/automaton/filer/RecentAutomatonInitializer.java" />
@@ -305,19 +243,31 @@
         <option value="$PROJECT_DIR$/src/sample/math/automata/tag/TaggableImpl.java" />
         <option value="$PROJECT_DIR$/src/sample/math/automata/automaton/filer/RecentAutomatonInitializerImpl.java" />
         <option value="$PROJECT_DIR$/src/sample/math/automata/automaton/filer/writer/WriterImpl.java" />
-        <option value="$PROJECT_DIR$/src/sample/window/WindowLoader.java" />
         <option value="$PROJECT_DIR$/src/sample/math/automata/tag/factory/AbstractTagFactory.java" />
         <option value="$PROJECT_DIR$/src/sample/math/automata/automaton/states/state/State.java" />
         <option value="$PROJECT_DIR$/src/sample/math/automata/automaton/filer/reader/StatesReader.java" />
         <option value="$PROJECT_DIR$/src/sample/math/automata/automaton/states/state/StateImpl.java" />
-        <option value="$PROJECT_DIR$/src/sample/math/automata/automaton/states/StatesAutomatonImpl.java" />
-        <option value="$PROJECT_DIR$/current_states_automaton.txt" />
-        <option value="$PROJECT_DIR$/src/sample/math/automata/automaton/AutomatonImpl.java" />
         <option value="$PROJECT_DIR$/src/sample/window/states/FXMLStatesAutomaton_Controller.java" />
-        <option value="$PROJECT_DIR$/src/sample/window/Controller.java" />
         <option value="$PROJECT_DIR$/src/sample/math/automata/automaton/save/AutomatonSaveDialog.java" />
         <option value="$PROJECT_DIR$/src/sample/math/automata/automaton/save/FXMLSaveDialog.fxml" />
         <option value="$PROJECT_DIR$/src/sample/math/automata/automaton/save/FXMLSaveDialogContoller.java" />
+        <option value="$PROJECT_DIR$/current_states_automaton.txt" />
+        <option value="$PROJECT_DIR$/src/sample/math/automata/automaton/Automaton.java" />
+        <option value="$PROJECT_DIR$/src/sample/math/automata/automaton/states/StatesAutomatonImpl.java" />
+        <option value="$PROJECT_DIR$/src/sample/window/save/FXMLSaveDialog.fxml" />
+        <option value="$PROJECT_DIR$/automaton_states.txt" />
+        <option value="$PROJECT_DIR$/src/sample/math/automata/automaton/AutomatonImpl.java" />
+        <option value="$PROJECT_DIR$/src/sample/window/save/FXMLSaveDialogContoller.java" />
+        <option value="$PROJECT_DIR$/src/sample/window/main/FXMLMain.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/window/states/FXMLStatesAutomatonController.java" />
+        <option value="$PROJECT_DIR$/src/sample/Main.java" />
+        <option value="$PROJECT_DIR$/src/sample/window/WindowLoader.java" />
+        <option value="$PROJECT_DIR$/src/sample/window/Controller.java" />
+        <option value="$PROJECT_DIR$/src/sample/window/play/FXMLPlay.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/window/play/FXMLPlayController.java" />
+        <option value="$PROJECT_DIR$/src/sample/window/main/FXMLMainController.java" />
+        <option value="$PROJECT_DIR$/src/sample/window/play/AutomatonGraphicBuilder.java" />
+        <option value="$PROJECT_DIR$/src/sample/window/play/graphic/AutomatonGraphicBuilder.java" />
       </list>
     </option>
   </component>
@@ -339,6 +289,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -369,52 +320,6 @@
               <item name="CourseWork" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sample" type="462c0819:PsiDirectoryNode" />
-              <item name="math" type="462c0819:PsiDirectoryNode" />
-              <item name="automata" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CourseWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CourseWork" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
-              <item name="math" type="462c0819:PsiDirectoryNode" />
-              <item name="automata" type="462c0819:PsiDirectoryNode" />
-              <item name="automaton" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CourseWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CourseWork" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
-              <item name="math" type="462c0819:PsiDirectoryNode" />
-              <item name="automata" type="462c0819:PsiDirectoryNode" />
-              <item name="automaton" type="462c0819:PsiDirectoryNode" />
-              <item name="save" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CourseWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CourseWork" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
-              <item name="math" type="462c0819:PsiDirectoryNode" />
-              <item name="automata" type="462c0819:PsiDirectoryNode" />
-              <item name="tag" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CourseWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CourseWork" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
-              <item name="math" type="462c0819:PsiDirectoryNode" />
-              <item name="automata" type="462c0819:PsiDirectoryNode" />
-              <item name="tag" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CourseWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CourseWork" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
               <item name="window" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -423,16 +328,33 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sample" type="462c0819:PsiDirectoryNode" />
               <item name="window" type="462c0819:PsiDirectoryNode" />
-              <item name="states" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CourseWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CourseWork" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="window" type="462c0819:PsiDirectoryNode" />
+              <item name="play" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CourseWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CourseWork" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="window" type="462c0819:PsiDirectoryNode" />
+              <item name="play" type="462c0819:PsiDirectoryNode" />
+              <item name="graphic" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="GoToFile.includeJavaFiles" value="false" />
@@ -440,10 +362,16 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="OverrideImplement.combined" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558287926294" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558876541622" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../CourseWork-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -563,9 +491,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.18976545" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.19829424" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -648,24 +575,6 @@
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/sample/math/automata/automaton/filer/reader/StatesReader.java</url>
-          <line>53</line>
-          <properties />
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/sample/math/automata/automaton/filer/reader/StatesReader.java</url>
-          <line>19</line>
-          <properties />
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/sample/math/automata/automaton/states/state/StateImpl.java</url>
-          <line>106</line>
-          <properties />
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -674,49 +583,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sample/math/automata/tag/Tag.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/math/automata/automaton/function/FunctionAutomatonImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/math/automata/automaton/filer.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/math/automata/automaton/states/state/StateOutputArc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/math/automata/calculations/transformer/BetaTransformer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/math/automata/tag/Taggable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/math/automata/automaton/Automaton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -810,12 +680,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/window/states/FXMLStatesAutomaton.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/math/parser/ParserException.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -901,11 +771,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/automaton_states.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-50" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/math/automata/automaton/filer/writer/WriterImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -917,30 +782,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
           <caret line="2514" selection-start-line="2514" selection-end-line="2514" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/math/automata/automaton/filer/reader/ReaderImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -995,16 +840,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/window/WindowLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/javafx-src.zip!/javafx/beans/binding/IntegerExpression.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -1033,16 +868,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/math/automata/automaton/filer/reader/StatesReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/math/automata/automaton/filer/RecentAutomatonInitializerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -1054,32 +879,99 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/current_states_automaton.txt">
+    <entry file="file://$PROJECT_DIR$/src/sample/math/automata/automaton/save/AutomatonSaveDialog.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/math/automata/automaton/Automaton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        <state relative-caret-position="323">
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/math/automata/automaton/states/StatesAutomatonImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="82" column="5" lean-forward="true" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+        <state relative-caret-position="403">
+          <caret line="124" column="41" selection-start-line="124" selection-start-column="41" selection-end-line="124" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#StatesAutomatonImpl#1;class#StatesAutomatonImpl#0" />
             <element signature="method#deleteLastState#0;class#StatesAutomatonImpl#0" />
             <element signature="method#addNewState#0;class#StatesAutomatonImpl#0" />
             <element signature="method#onStatesAmountChange#0;class#StatesAutomatonImpl#0" />
+            <element signature="method#onBetaChange#0;class#StatesAutomatonImpl#0" />
             <element signature="method#getAllArcs#0;class#StatesAutomatonImpl#0" />
+            <element signature="method#copy#0;class#StatesAutomatonImpl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/window/save/FXMLSaveDialog.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/math/automata/automaton/filer/reader/ReaderImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-444">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#readAutomatonList#0;class#ReaderImpl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automaton_states.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/math/automata/automaton/filer/reader/StatesReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/window/main/FXMLMain.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/window/states/FXMLStatesAutomatonController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="65" column="37" selection-start-line="65" selection-start-column="37" selection-end-line="65" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#onAddState#0;class#FXMLStatesAutomatonController#0" />
+            <element signature="method#onDeleteLastState#0;class#FXMLStatesAutomatonController#0" />
+            <element signature="method#onApplyArcButton#0;class#FXMLStatesAutomatonController#0" />
+            <element signature="method#initialize#0;class#FXMLStatesAutomatonController#0" />
+            <element signature="method#bindSpecial#0;class#FXMLStatesAutomatonController#0" />
+            <element signature="method#initSpecial#0;class#FXMLStatesAutomatonController#0" />
+            <element signature="method#onSelectedArcPrint#0;class#FXMLStatesAutomatonController#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/math/automata/automaton/states/state/StateImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="58" column="54" selection-start-line="58" selection-start-column="54" selection-end-line="58" selection-end-column="54" />
+        <state relative-caret-position="176">
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#setCardinality#0;class#StateImpl#0" />
@@ -1091,15 +983,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/window/Controller.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/window/save/FXMLSaveDialogContoller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="119" selection-start-line="119" selection-end-line="119" />
+        <state relative-caret-position="238">
+          <caret line="64" column="24" lean-forward="true" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1686#1687#0" expanded="true" />
+            <element signature="e#1708#1709#0" expanded="true" />
+            <element signature="e#1762#1763#0" expanded="true" />
+            <element signature="e#1793#1794#0" expanded="true" />
+            <element signature="e#1998#1999#0" expanded="true" />
+            <element signature="e#2058#2059#0" expanded="true" />
+            <element signature="e#2237#2238#0" expanded="true" />
+            <element signature="e#2311#2312#0" expanded="true" />
+            <element signature="method#init#0;class#FXMLSaveDialogContoller#0" />
+            <element signature="method#initColumns#0;class#FXMLSaveDialogContoller#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/window/WindowLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/current_states_automaton.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/window/play/FXMLPlay.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/window/play/FXMLPlayController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/window/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1202">
+          <caret line="222" column="34" selection-start-line="222" selection-start-column="23" selection-end-line="222" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Controller#0;class#Controller#0" />
+            <element signature="method#onApplyBetaButton#0;class#Controller#0" />
             <element signature="method#onCancelBetaButton#0;class#Controller#0" />
+            <element signature="method#onSaveButton#0;class#Controller#0" />
             <element signature="method#onOkButton#0;class#Controller#0" />
             <element signature="method#onApplyWindowButton#0;class#Controller#0" />
+            <element signature="method#onLoadButton#0;class#Controller#0" />
             <element signature="method#bindAutomaton#0;class#Controller#0" />
             <element signature="method#bindCommon#0;class#Controller#0" />
             <element signature="method#init#0;class#Controller#0" />
@@ -1112,8 +1073,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/math/automata/automaton/AutomatonImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="103" column="12" selection-start-line="103" selection-start-column="12" selection-end-line="103" selection-end-column="12" />
+        <state relative-caret-position="137">
+          <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#setName#0;class#AutomatonImpl#0" />
@@ -1123,47 +1084,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/math/automata/automaton/save/AutomatonSaveDialog.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/window/main/FXMLMainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="179">
+          <caret line="44" column="86" selection-start-line="44" selection-start-column="86" selection-end-line="44" selection-end-column="86" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#initCurrent#0;class#FXMLMainController#0" />
+            <element signature="method#initialize#0;class#FXMLMainController#0" />
+            <element signature="method#initRadioButtons#0;class#FXMLMainController#0" />
+            <element signature="method#initFieldListeners#0;class#FXMLMainController#0" />
+            <element signature="method#gerRecentAutomaton#0;class#FXMLMainController#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/window/states/FXMLStatesAutomatonController.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/window/play/graphic/AutomatonGraphicBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#onAddState#0;class#FXMLStatesAutomaton_Controller#0" />
-            <element signature="method#onDeleteLastState#0;class#FXMLStatesAutomaton_Controller#0" />
-            <element signature="method#onApplyArcButton#0;class#FXMLStatesAutomaton_Controller#0" />
-            <element signature="method#initialize#0;class#FXMLStatesAutomaton_Controller#0" />
-            <element signature="method#bindSpecial#0;class#FXMLStatesAutomaton_Controller#0" />
-            <element signature="method#initSpecial#0;class#FXMLStatesAutomaton_Controller#0" />
-            <element signature="method#onSelectedArcPrint#0;class#FXMLStatesAutomaton_Controller#0" />
-          </folding>
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/math/automata/automaton/save/FXMLSaveDialog.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/math/automata/automaton/save/FXMLSaveDialogContoller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>CourseWork</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

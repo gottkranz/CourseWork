@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="555.0" prefWidth="605.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.window.main.FXMLMainController">
+   <children>
+      <Label layoutX="17.0" layoutY="14.0" text="LOAD:">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <RadioButton layoutX="348.0" layoutY="57.0" mnemonicParsing="false" text="Save Images">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="burstButton" layoutX="18.0" layoutY="181.0" mnemonicParsing="false" text="BURST">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <TextField fx:id="initialKField" layoutX="18.0" layoutY="212.0" maxWidth="75.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="finishKField" layoutX="18.0" layoutY="255.0" maxWidth="75.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Label layoutX="108.0" layoutY="217.0" text="- Initial K.">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="18.0" layoutY="297.0" prefHeight="47.0" prefWidth="281.0" text="*K is the the amount of the digits in the number." wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="108.0" layoutY="260.0" text="- Finish K.">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="17.0" layoutY="52.0" minWidth="100.0" mnemonicParsing="false" onAction="#onStatesButton" text="STATES">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="17.0" layoutY="95.0" minWidth="100.0" mnemonicParsing="false" onAction="#onFunctionButton" text="FUNCTION">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="18.0" layoutY="355.0" text="CURRENT AUTOMATON:" wrapText="true">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="currentNameLabel" alignment="TOP_LEFT" layoutX="18.0" layoutY="417.0" prefHeight="77.0" prefWidth="281.0" text="NO AUTOMATONS" wrapText="true">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="18.0" layoutY="143.0" text="WORK TYPE:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="singleButton" layoutX="348.0" layoutY="178.0" mnemonicParsing="false" text="SINGLE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <TextField fx:id="singleKField" layoutX="348.0" layoutY="209.0" maxWidth="75.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Label layoutX="438.0" layoutY="214.0" text="- Single K.">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="346.0" layoutY="11.0" text="IMAGE SETTINGS:">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="255.0" layoutY="492.0" minWidth="100.0" mnemonicParsing="false" text="START">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="currentTypeLabel" layoutX="18.0" layoutY="390.0" text="AUTOMATON TYPE" wrapText="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
